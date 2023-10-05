@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>E-Commerce Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo" width="125px"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png" alt="cart" width="30px" height="30px"></a>
+                <img src="images/menu.png" alt="cart" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout </br> A New Style</h1>
+                    <p>Success depends on second letter of success. it's about hard work with<br> regular consistency
+                        then greatness will come.</p>
+                    <a href="" class="btn">Shop Now <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="col-2">
+                    <img src="images/image1.png" alt="about">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- categories end -->
+    <!-- feature product start -->
+
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+               <a href="productdetails.html"> <img src="images/product-1.jpg" alt=""></a>
+                <a href="productdetails.html"><h4>Red Printed T-shirt</h4></a>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p> $60.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p> $65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-regular fa-star"></i> -->
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p> $70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-regular fa-star"></i> -->
+                </div>
+                <p> $50.00</p>
+            </div>
+        </div>
+        <h2 class="title">Trending Products</h2>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p> $60.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p> $65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-regular fa-star"></i> -->
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p> $70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-regular fa-star"></i> -->
+                </div>
+                <p> $50.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-9.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p> $60.00</p>
+            </div>
+
+            <div class="col-4">
+                <img src="images/product-10.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-solid fa-star"></i> -->
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p> $65.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-11.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-regular fa-star"></i> -->
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p> $70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-12.jpg" alt="">
+                <h4>Red Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <!-- <i class="fa-regular fa-star"></i> -->
+                </div>
+                <p> $50.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- offer section start -->
+
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/exclusive.png" alt="" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusive Offer on Redstore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi smart band 4 features a 36.9% larger (than Mi Band 3) Amoled color full- touch display
+                        with adjustable brightness,so everything clear as can be.</small>
+                    <a href="" class="btn">Buy Now <i class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testimonial section start -->
+
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>The act of shopping provides individuals with a sense of control and autonomy over their choices
+                        and preferences is that making purchase decisions confers a sense of personal control and
+                        autonomy.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/user-1.png" alt="user">
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Shopping and buying things for ourselves gives us happiness. It is like gifting ourselves
+                        something we like. This joy pleases our mind and heart and calms us . And some emotions
+                        triggered by shopping item.</p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half"></i>
+                    </div>
+                    <img src="images/user-2.png" alt="user">
+                    <h3>Peter John</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>It is guided by how you feel in a certain moment,” says Bellet. “When you buy something, you get
+                        a little rush of dopamine. It gives us a sense.
+                        its make me feel better.you can visit here and buy item enjoyfully.
+                    </p>
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <img src="images/user-3.png" alt="user">
+                    <h3>Angel Bellet</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- brands section start -->
+
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo-coca-cola.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-paypal.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-philips.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-oppo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo-godrej.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer srction start -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download App Here</h3>
+                    <p>Download App for Android phone and ios mobile</p>
+                    <div class="app-logo">
+                        <img src="images/app-store.png" alt="">
+                        <img src="images/play-store.png" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>An e-commerce website is one that allows people to buy and sell physical goods, services, and
+                        digital products over the internet.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Links</h3>
+                    <ul>
+                        <li>Blog</li>
+                        <li>Fetured Product</li>
+                        <li>Return Policy</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-square-instagram"></i></li>
+                        <li><i class="fa-brands fa-youtube"></i></li>
+                        <li><i class="fa-brands fa-square-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Frontend Developer</p>
+        </div>
+    </div>
+
+    <!-- javascript for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+           if (MenuItems.style.maxHeight == "0px")
+             {
+                MenuItems.style.maxHeight = "200px"
+            }
+             else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+</body>
+
+</html>
